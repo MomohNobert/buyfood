@@ -90,6 +90,8 @@ export const Style = {
         font-size: 11px;
         line-height: 15px;
         color: var(--dark);
+        margin-top: 5px;
+        max-width: 85%;
       }
     }
   `,
