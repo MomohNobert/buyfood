@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --primary: #0262D2;
+  --secondary: #FF6774;
+  --dark: #141737;
+  --white: white;
+  --width: 95%;
+  --max-width: 1200px;
+}
+
+.index-page {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+}
+
+.index-page-banner {
+  height: 100%;
+  width: 30%;
+  background-color: #F3E8C9;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.index-page-banner img {
+  width: 95%;
+  height: auto;
+  margin-top: 52.5%;
+  margin-left: 2.5%;
+}
+
+.index-page-content {
+  width: 62.5%;
+  max-width: var(--max-width);
+  margin-left: 33.75%;
+}
+
+@media (max-width: 768px) {
+  .index-page-banner {
+    display: none;
+  }
+
+  .index-page-content {
+    width: 90%;
+    margin: auto;
+  }
+}
